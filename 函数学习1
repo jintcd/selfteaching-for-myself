@@ -1,0 +1,22 @@
+#递归函数Recursion，一定要有退出机制，return中包含f本身；递归函数例子学习：https://introcs.cs.princeton.edu/java/23recursion/
+def f(n):
+    if n == 1:
+        return 1
+    else:
+        return n*f(n-1)
+print(f(5))
+
+# range(0,10)意义list(range(10))
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# list(range(1, 11))
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# list(range(0, 30, 5))
+# [0, 5, 10, 15, 20, 25]
+# list(range(0, 10, 3))
+# [0, 3, 6, 9]
+# list(range(0, -10, -1))
+# [0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
+# list(range(0))
+# []
+# list(range(1, 0))
+# [] 
